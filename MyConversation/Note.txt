@@ -1,0 +1,16 @@
+﻿Role - Permission
+---Kiểm tra ở hàm authen: ClientApp có hoạt dộng hay ko mới cho xử lý tiếp
+---Lưu token phía BE để kiểm tra hết hạn hoặc logout
+Update: User nào tạo/admin thì đc quyền update, delete record đó
+---Get Conversation/MessageDetail: User nào trong attendance thì đc quyền view
+
+
+api mark read: click vào user thì gọi hoặc khi popup đang mở thì cập nhật
+khi gọi hàm send thì đánh dấu unread + 1 trên ConversationModel
+
+
+
+
+Khi tạo Client thì tạo 1 Conversation tổng cho tất cả
+Auto add user vào Conversation khi add mới user
+Api lấy Conversation tổng
